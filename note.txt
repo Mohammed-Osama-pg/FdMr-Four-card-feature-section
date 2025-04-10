@@ -1,0 +1,15 @@
+# Four card feature section
+## What the challenge?
+    It is a layout-based challenge for beginners. This will test anyone who is new to multi-column and responsive layouts.
+
+## What it requires ?
+    Basic knowlege of Flex box and font flowed wille not forget of html strucure and using SASS for style.
+
+## Ideas to test myself :
+- Write your styles using a pre-processor, such as Sass, Less or Stylus
+- Train your eye for detail by getting your solution as close to the design as you can
+- Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers.
+
+## Search and resources:
+- [flexbox css]:  (https://www.youtube.com/watch?v=phWxA89Dy94).
+- [Why to stop using px for font-size] : (https://www.youtube.com/watch?v=xCSw6bPXZks).
