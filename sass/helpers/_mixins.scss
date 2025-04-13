@@ -17,19 +17,33 @@ $breakpoints: (
 }
 
 // ! FONTS ---------------------------------------------
+@mixin fluid-type($min-vw, $max-vw, $min-value, $max-value) {
+  $factor: 1 / ($max-vw - $min-vw) * ($max-value - $min-value);
+  $calc-value: unquote(
+    "#{ $min-value - ($min-vw * $factor) } + #{ 100vw * $factor }"
+  );
+
+  font-size: $min-value; // Fallback for older browsers
+  font-size: clamp(
+    #{if($min-value > $max-value, $max-value, $min-value)},
+    #{$calc-value},
+    #{if($min-value > $max-value, $min-value, $max-value)}
+  );
+}
+
 @mixin text-preset-1 {
   font-family: "Poppins";
   font-weight: 600;
-  font-size: rem(36);
   line-height: 140%;
   letter-spacing: rem(0.25);
+  @include fluid-type(rem(375), rem(768), rem(24), rem(36));
 }
 @mixin text-preset-2 {
   font-family: "Poppins";
   font-weight: 200;
-  font-size: rem(36);
   line-height: 140%;
   letter-spacing: rem(0.25);
+  @include fluid-type(rem(375), rem(768), rem(24), rem(36));
 }
 @mixin text-preset-3 {
   font-family: "Poppins";
