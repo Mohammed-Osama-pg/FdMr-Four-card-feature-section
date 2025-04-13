@@ -9,6 +9,7 @@
 - Write your styles using a pre-processor, such as Sass, Less or Stylus
 - Train your eye for detail by getting your solution as close to the design as you can
 - Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers.
+- Try to use Clamp() CSS or font flued function on SASS
 
 ## Search and resources:
 - [flexbox css]:  (https://www.youtube.com/watch?v=phWxA89Dy94).
