@@ -15,3 +15,7 @@
 - [flexbox css]:  (https://www.youtube.com/watch?v=phWxA89Dy94).
 - [Why to stop using px for font-size] : (https://www.youtube.com/watch?v=xCSw6bPXZks).
 - [Simplest CSS reset to prevent headaches] : (https://www.youtube.com/watch?v=2lyDv0wOQuQ).
+
+the work time:
+
+1:12 - 
