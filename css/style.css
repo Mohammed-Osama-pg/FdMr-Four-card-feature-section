@@ -154,11 +154,28 @@ body {
   .feature {
     padding-block: 5rem;
     padding-inline: 3.375rem;
+    gap: 4.625rem;
   }
   .feature__title {
     max-width: 33.75rem;
   }
   .feature .multi-cards {
     flex-direction: row;
+  }
+}
+@media (width >= 80rem) {
+  .feature {
+    padding-block: 6.375rem 0rem;
+  }
+  .feature__content {
+    flex-direction: row;
+  }
+  .feature__content .card {
+    max-width: 21.875rem;
+    height: 15.625rem;
+    justify-content: flex-start;
+  }
+  .feature__content .multi-cards {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */

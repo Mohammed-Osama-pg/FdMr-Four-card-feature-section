@@ -96,12 +96,27 @@ body {
   @include breakpoint("md") {
     padding-block: rem(80);
     padding-inline: rem(54);
+    gap: rem(74);
     &__title {
       max-width: rem(540);
     }
 
     .multi-cards {
       flex-direction: row;
+    }
+  }
+  @include breakpoint("lg") {
+    padding-block: rem(102) rem(0);
+    &__content {
+      flex-direction: row;
+      .card {
+        max-width: rem(350);
+        height: rem(250);
+        justify-content: flex-start;
+      }
+      .multi-cards {
+        flex-direction: column;
+      }
     }
   }
 }
