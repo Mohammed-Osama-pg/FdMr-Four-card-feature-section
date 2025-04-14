@@ -1,6 +1,7 @@
 @use "../helpers/functions" as *;
 :root {
   // Colors ------------------------------------
+  --background: #fafafa;
   --White: #ffffff;
   --Grey-400: #6a7178;
   --Grey-500: #4d4f62;
@@ -8,11 +9,4 @@
   --Cyan: #44d3d2;
   --Blue: #549ef2;
   --Orange: #fcae4a;
-
-  // Spacing ------------------------------------
-  --500: rem(40);
-  --400: rem(32);
-  --300: rem(24);
-  --200: rem(16);
-  --100: rem(8);
 }

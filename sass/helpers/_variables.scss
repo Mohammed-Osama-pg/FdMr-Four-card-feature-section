@@ -1,3 +1,5 @@
+@use "./functions" as *;
+$clr-bg: var(--background);
 $clr-White: var(--White);
 $clr-Grey-400: var(--Grey-400);
 $clr-Grey-500: var(--Grey-500);
@@ -6,8 +8,9 @@ $clr-Cyan: var(--Cyan);
 $clr-Blue: var(--Blue);
 $clr-Orange: var(--Orange);
 
-$spacing-500: var(--500);
-$spacing-400: var(--400);
-$spacing-300: var(--300);
-$spacing-200: var(--200);
-$spacing-100: var(--100);
+// Font Sizes ------------------------------------
+$spacing-500: rem(40);
+$spacing-400: rem(32);
+$spacing-300: rem(24);
+$spacing-200: rem(16);
+$spacing-100: rem(8);
