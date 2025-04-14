@@ -63,7 +63,7 @@ Approx. **3 hours and 55 minutes** (1:12 + 2:43)
 
 ## 📸 Screenshot
 
-![Project Screenshot](./screenshot.jpg)  
+![Project Screenshot](./screenshot.png)  
 _Make sure to replace this with an actual screenshot of your final project._
 
 ## 💡 What I Learned
