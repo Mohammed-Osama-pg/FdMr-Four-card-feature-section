@@ -63,3 +63,8 @@ $breakpoints: (
   font-size: rem(13);
   line-height: 160%;
 }
+
+// ! style ---------------------------------------------
+@mixin dropshadow {
+  box-shadow: 0 rem(15) rem(30) rem(-11) rgba(131, 166, 210, 0.5);
+}

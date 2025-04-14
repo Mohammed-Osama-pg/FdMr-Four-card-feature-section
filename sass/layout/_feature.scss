@@ -37,4 +37,56 @@ body {
     margin-top: $spacing-200;
     @include text-preset-4;
   }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: $spacing-400;
+
+    .multi-cards {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: $spacing-400;
+    }
+
+    .card {
+      padding: $spacing-400;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-direction: column;
+      gap: $spacing-400;
+      background-color: $clr-White;
+      border-top: rem(4) solid $clr-White;
+      border-radius: $spacing-100;
+      @include dropshadow;
+
+      &--cyan {
+        border-top-color: $clr-Cyan;
+      }
+      &--red {
+        border-top-color: $clr-Red;
+      }
+      &--orange {
+        border-top-color: $clr-Orange;
+      }
+      &--blue {
+        border-top-color: $clr-Blue;
+      }
+      &-title {
+        color: $clr-Grey-500;
+        &__heading {
+          @include text-preset-3;
+        }
+        &__description {
+          @include text-preset-5;
+          color: $clr-Grey-400;
+        }
+      }
+    }
+  }
 }
